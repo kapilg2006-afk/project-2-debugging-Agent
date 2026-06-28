@@ -1,0 +1,9 @@
+model:
+  name: "gemini-2.0-flash"    # or "gemini-2.5-flash" when available to you
+  temperature: 0.4
+  top_p: 1.0
+  max_output_tokens: 2048
+
+debugging_app:
+  explanation_language: "en"   # reserve for future (if you want Hindi etc)
+  max_code_chars: 4000         # safety limit for very long code
